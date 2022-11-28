@@ -38,7 +38,7 @@ export type OCSFSecurityFinding = {
   severity?: string; // Optional
   severity_id: number; // Required
   start_time?: number; // Optional
-  state?: string;
+  state?: string; // Optional
   state_id: number; // Required
   status?: string; // Optional
   status_code?: string; // Optional
